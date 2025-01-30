@@ -27,8 +27,7 @@
           <a class="topmenu" href="#skills">Skills</a>
           <a class="topmenu" href="#projects">Projects</a>
           <a class="topmenu" href="#recommendations">Recommendation</a>
-          <!-- Add the links for Skills, Projects and Recommendation here -->
-
+          <a class="topmenu" href="#certifications">Certifications</a>
         </div>
       </div>    
     </nav>
@@ -57,17 +56,6 @@
       <div style="clear:both;"></div>
 
       <div class="all_skills">
-        <div class="skill">
-          <img src="icons/unity.png"/>
-          <h6>Unity</h6>
-          <p>2 years experience</p>
-        </div>  
-
-        <div class="skill">
-          <img src="icons/ue.png"/>
-          <h6>Unreal Engine</h6>
-          <p>1 year experience</p>
-        </div>  
 
         <div class="skill">
             <img src="icons/html5.png"/>
@@ -80,6 +68,24 @@
             <h6>CSS</h6>
             <p>1 year experience</p>
         </div> 
+
+        <div class="skill">
+          <img src="icons/js.jpeg"/>
+          <h6>Javascript</h6>
+          <p>1 year experience</p>
+      </div> 
+
+        <div class="skill">
+          <img src="icons/unity.png"/>
+          <h6>Unity</h6>
+          <p>2 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="icons/ue.png"/>
+          <h6>Unreal Engine</h6>
+          <p>1 year experience</p>
+        </div>  
 
 
       </div>
@@ -113,9 +119,54 @@
               <li>Created a styled multi-page website for a client using HTML, CSS and JavaScript</li>
             </ul>
           </div>
-    </div>
+      </div>
     </section>
-    <div style="clear:both;"></div>
+
+
+    <!-- Certifications -->
+     <section class="certifications" id="certifications">
+      <h2>Certifications</h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3><a href="https://www.coursera.org/account/accomplishments/verify/8I01DLZVXVSA" target="_blank">Designing User Interfaces and Experiencces</a></h3>
+            <ul>
+              <li>Explain design, UI/UX concepts, best practices of visual development, and the key duties and responsibilities of a UI/UX designer.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3><a href="https://www.coursera.org/account/accomplishments/verify/G7HQF9KLX26C" target="_blank">Getting Started with Front-End and Web Development</a></h3>
+            <ul>
+              <li>Define front-end development, list roles and skills, outline web development steps, and explore UI/UX design, collaboration, and industry trends.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3><a href="https://www.coursera.org/account/accomplishments/verify/O4NY85XYB8ND" target="_blank">Introduction to Software Engineering</a></h3>
+            <ul>
+              <li>Describe software engineering, Software Development Lifecycle (SDLC), and software development tools, technologies and stacks.  </li>
+            </ul>
+          </div>
+      </div>
+     </section>
+
+     <!-- Practices -->
+     <section class="certifications" id="certifications">
+      <h2>Practices</h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3><a href="Restaurant/Template Restaurant/index.html" target="_blank">Bootstrap</a></h3>
+            <ul>
+              <li>Restaurant webpage using Bootstrap for responsive design</li>
+            </ul>
+          </div>
+          <hr>
+      </div>
+     </section>
 
     <!-- Recommendations -->
     <section id="recommendations">
@@ -135,20 +186,6 @@
       </div>
     </section>
 
-    <!-- Recommendation Form -->
-    <section id="contact">
-      <div class="flex_center">
-        <fieldset>
-          <legend class="introduction">Leave a Recommendation</legend>          
-          <input type="text" placeholder="Name (Optional)"> <br/>
-          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
-          <div class="flex_center">
-            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
-          </div>
-        </fieldset>
-      </div>
-    </section>
-
     <div class="iconbutton">
       <a href="#home">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
@@ -162,5 +199,7 @@
       <h3>Thanks for leaving your recommendation :D</h3>
       <button onclick="showPopup(false)">Ok</button>
     </div>
+
+
   </body>
 </html>
